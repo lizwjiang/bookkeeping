@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	>
+	<TextView android:text="@string/item_maintenance_title"
+    	android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:textColor="#FFFFFFFF"
+		android:gravity="center"
+		android:textSize="30px"/>
+	<Button
+		android:id="@+id/add_item_btn"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/add_item"
+		android:layout_gravity="center"/>
+	<TableLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:stretchColumns="0,1"
+		android:background="#FFFF0000">	
+		<TableRow>
+		<TextView android:text="@string/item_name_title"
+			android:layout_column="0" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#FFFFFFFF"
+			
+			android:gravity="center"
+			android:textSize="22px"/>
+		<TextView android:text="@string/operation"
+	    	android:layout_column="1"
+	    	android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textColor="#FFFFFFFF"
+			android:gravity="center"
+			android:textSize="22px"/>
+		</TableRow>
+	</TableLayout>
+	<ListView android:id="@+id/item_listView"
+		android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="false"
+		>
+	
+	</ListView>	
+</LinearLayout>

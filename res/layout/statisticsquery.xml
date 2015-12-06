@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView android:id="@+id/statistics_query"
+			android:layout_width="fill_parent" android:text="@string/statistics_query"
+			android:gravity="center_horizontal" android:textSize="30dip"
+			android:layout_height="wrap_content" android:paddingTop="10dip" />
+	</LinearLayout>
+
+	<TableLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:id="@+id/tableLayout_statistics_query"
+		android:stretchColumns="1">
+		<TableRow android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/statistics_type" android:id="@+id/statistics_type"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical" />
+			<Spinner android:text="" android:id="@+id/statistics_type_input"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		</TableRow>
+		<TableRow android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/picture_type" android:id="@+id/picture_type"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical" />
+			<Spinner android:text="" android:id="@+id/picture_type_input"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		</TableRow>
+		<TableRow android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/date" android:id="@+id/statistics_date"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical" />
+			<Spinner android:text="" android:id="@+id/statistics_date_input"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		</TableRow>
+		<TableRow android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/from_date" android:id="@+id/statistics_from_date"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical" />
+			<EditText android:text="" android:id="@+id/statistics_from_date_input"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical" />
+			<ImageButton android:src="@drawable/calendar"
+				android:id="@+id/statistics_from_date_button" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</TableRow>
+		<TableRow android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/to_date" android:id="@+id/statistics_to_date"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical" />
+			<EditText android:text="" android:id="@+id/statistics_to_date_input"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical" />
+			<ImageButton android:src="@drawable/calendar" android:id="@+id/statistics_to_date_button"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		</TableRow>
+	</TableLayout>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<Button android:id="@+id/statistics_submit"
+			android:layout_width="fill_parent" android:text="@string/submit"
+			android:gravity="center_horizontal" android:layout_height="wrap_content" />
+	</LinearLayout>
+</LinearLayout>

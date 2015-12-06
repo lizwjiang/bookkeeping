@@ -18,15 +18,7 @@ import org.android.bookkeeping.common.sharepreference.BookkeepingSharePreference
 import org.android.bookkeeping.util.Constants;
 import org.android.bookkeeping.util.DBUtil;
 import org.android.bookkeeping.util.StringUtil;
-/**
- * 
- * This is the initial window of the whole bookkeeping system. it is actually a login window.
- * as soon as users input user no and password and click submit button, system will validate
- * the matching between user no and password. if no, error window will be popped up. 
- *
- * @author Johnson_Jiang01
- * @version 1.0, 2011-8-9
- */
+
 public class Main extends Activity {
 	BookkeepingApplication bookkeepingApp;
 	EditText userNo, password;

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<TextView android:text="@string/viewBookkeeping_title"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textColor="#FFFFFFFF" android:gravity="center"
+		android:textSize="30px" />
+	<TableLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:stretchColumns="1">
+		<TableRow android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/date" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="#FFFFFFFF"
+				android:gravity="center" android:textSize="22px" />
+			<TextView android:id="@+id/view_bk_date"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#FFFFFFFF" android:gravity="center"
+				android:textSize="22px" />
+		</TableRow>
+		<TableRow android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/consumer_string"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#FFFFFFFF" android:gravity="center"
+				android:textSize="22px" />
+			<TextView android:id="@+id/view_bk_consumer"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#FFFFFFFF" android:gravity="center"
+				android:textSize="22px" />
+		</TableRow>
+		<TableRow android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/item" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="#FFFFFFFF"
+				android:gravity="center" android:textSize="22px" />
+			<TextView android:id="@+id/view_bk_item"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#FFFFFFFF" android:gravity="center"
+				android:textSize="22px" />
+		</TableRow>
+		<TableRow android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/amount"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#FFFFFFFF" android:gravity="center"
+				android:textSize="22px" />
+			<TextView android:id="@+id/view_bk_amount"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#FFFFFFFF" android:gravity="center"
+				android:textSize="22px" />
+		</TableRow>
+		<TableRow android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/reimbursement"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#FFFFFFFF" android:gravity="center"
+				android:textSize="22px" />
+			<TextView android:id="@+id/view_bk_reimbursement"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#FFFFFFFF" android:gravity="center"
+				android:textSize="22px" />
+		</TableRow>
+		<TableRow android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:text="@string/description"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#FFFFFFFF" android:gravity="center"
+				android:textSize="22px" />
+			<TextView android:id="@+id/view_bk_description"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:textColor="#FFFFFFFF" android:gravity="center"
+				android:textSize="22px" />
+		</TableRow>
+	</TableLayout>
+</LinearLayout>

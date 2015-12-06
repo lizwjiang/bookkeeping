@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TableLayout android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:id="@+id/tableLayout_viewuser"
+			android:stretchColumns="1">
+			<TableRow android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:text="@string/user_no" android:id="@+id/user_no"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+				<TextView android:text="" android:id="@+id/user_no_output"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			</TableRow>
+			<TableRow android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:text="@string/user_name" android:id="@+id/user_name"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+				<TextView android:text="" android:id="@+id/user_name_output"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			</TableRow>
+			<TableRow android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:text="@string/user_nickname" android:id="@+id/user_nickname"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+				<TextView android:text="" android:id="@+id/user_nickname_output"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			</TableRow>
+			<TableRow android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:text="@string/gender" android:id="@+id/gender"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical" />
+				<TextView android:text="" android:id="@+id/gender_output"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			</TableRow>
+			<TableRow android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:text="@string/phone" android:id="@+id/phone"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+				<TextView android:text="" android:id="@+id/phone_output"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			</TableRow>
+			<TableRow android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:text="@string/email" android:id="@+id/email"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+				<TextView android:text="" android:id="@+id/email_output"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			</TableRow>
+			<TableRow android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:text="@string/married" android:id="@+id/married"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+				<TextView android:text="" android:id="@+id/married_output"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			</TableRow>
+			<TableRow android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<TextView android:text="@string/role" android:id="@+id/role"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:layout_gravity="center_vertical" />
+				<TextView android:text="" android:id="@+id/role_output"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" />
+			</TableRow>
+		</TableLayout>
+
+	</ScrollView>
+</LinearLayout>

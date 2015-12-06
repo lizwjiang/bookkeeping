@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+	<LinearLayout android:layout_width="fill_parent"
+  				android:layout_height="wrap_content">
+  		<ImageView android:layout_width="wrap_content"
+  				   android:layout_height="wrap_content"
+  				   android:src="@drawable/welcome"/>
+  		<TextView  android:layout_width="fill_parent" android:textSize="25dip"
+  				   android:layout_height="wrap_content"
+  				   android:text="@string/welcome"
+  				   android:paddingTop="10dip"/>
+  	</LinearLayout>
+  	<TableLayout 
+    	android:layout_width="match_parent" 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/tableLayout1"
+    	android:stretchColumns="1">
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        	<TextView android:text="@string/user_no" android:id="@+id/tv_user_no" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        	<EditText android:text="" android:id="@+id/user_no" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        	<TextView android:text="@string/tv_password" android:id="@+id/tv_password" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        	<EditText android:text="" android:id="@+id/password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="textPassword"/>
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        	<TextView android:text="@string/auto_login"  android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        	<CheckBox android:id="@+id/auto_login" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        	<Button android:text="@string/clear" android:id="@+id/clear" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        	<Button android:text="@string/register" android:id="@+id/register" android:layout_span="2" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </TableRow>        
+    </TableLayout>
+
+</LinearLayout>

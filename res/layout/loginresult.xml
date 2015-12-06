@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+		<ImageButton android:text="@string/global_param_btn" android:id="@+id/global_param_btn"  android:background="@drawable/global_param"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />	
+		<ImageButton android:text="@string/manage_item_btn" android:id="@+id/manage_item_btn"  android:background="@drawable/manage_item"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+  	</LinearLayout>
+  	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+  		<ImageButton android:text="@string/manage_consumer_btn" android:id="@+id/manage_consumer_btn"  android:background="@drawable/manage_consumer"
+  		    	android:layout_height="wrap_content" android:layout_width="wrap_content" />
+  		<ImageButton android:text="@string/manage_user_btn" android:id="@+id/manage_user_btn"  android:background="@drawable/manage_user"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />	
+  		<ImageButton android:text="@string/cancel_auto_login_btn" android:layout_height="wrap_content" android:layout_width="wrap_content" 
+  		    android:id="@+id/cancel_auto_login_btn"  android:background="@drawable/cancel_auto_login" />
+  	</LinearLayout>
+  	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:gravity="bottom">
+  		<ImageButton android:text="@string/bookkeeping_btn" android:id="@+id/bookkeeping_btn" android:background="@drawable/bookkeeping"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		<ImageButton android:text="@string/bookkeeping_inquiry_btn" android:background="@drawable/bookkeeping_inquiry"
+				android:id="@+id/bookkeeping_inquiry_btn" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		<ImageButton android:text="@string/statistics_report_btn"  android:background="@drawable/statistics_report"
+				android:id="@+id/statistics_report_btn" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		<ImageButton android:text="@string/data_sync_btn"  android:background="@drawable/data_sync"
+				android:id="@+id/data_sync_btn" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+  	</LinearLayout>			
+</LinearLayout>

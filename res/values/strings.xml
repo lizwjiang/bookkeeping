@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 通用部分 -->
+	<string name="submit">提交</string>
+	<string name="add">新增</string>
+	<string name="modify">修改</string>
+	<string name="delete">删除</string>
+	<string name="tooltip">提示框</string>
+	<string name="confirm_deletion">确定要删除吗</string>
+	<string name="confirm_yes">确定</string>
+	<string name="confirm_no">取消</string>
+	<string name="inquire">查询</string>
+	<string name="add_success">新增记录成功</string>
+	<string name="add_failed">新增记录失败</string>
+	<string name="add_more">继续新增记录</string>
+	<string name="modify_success">修改记录成功</string> 
+	<string name="modify_failed">修改记录失败</string>
+	<string name="no_eligibility_record">没有符合条件的记录</string>
+	<string name="amount">金额</string>
+	<string name="date">日期</string>
+	<string name="ok">确定</string>
+	<string name="cancel">取消</string>
+	<string name="back">返回</string>
+	<string name="close">关闭</string> 
+	<string name="clear">清空</string>
+	<string name="no_selected">不选择</string>
+	<!-- 通用部分结束 -->
+
+	<!-- 登录页面 -->
+    <string name="app_name">Bookkeeping</string>
+    <string name="welcome">欢迎使用记账系统</string>
+    <string name="auto_login">自动登录</string>
+    <string name="register">登录</string>
+    <string name="backtomain">回主页</string>    
+    
+    <string name="default_user_deleted_success">默认登录用户已删除</string>
+    <string name="user_no_null">用户名不能为空</string>
+    <string name="password_no_null">密码不能为空</string>
+    <string name="password_no_nomatching">用户名和密码不匹配</string>
+    <!-- 登录页面结束 -->
+    
+    <!-- 登录结果页面 -->
+    <string name="global_param_btn">全局参数配置</string>
+    <string name="add_item_btn">新增消费项</string>
+    <string name="manage_item_btn">管理消费项</string>
+    <string name="add_consumer_btn">新增消费者</string>
+    <string name="manage_consumer_btn">管理消费者</string>
+    <string name="manage_user_btn">用户维护</string>
+    <string name="cancel_auto_login_btn">取消默认用户登录</string>
+    <string name="bookkeeping_btn">记一笔账</string>
+    <string name="bookkeeping_inquiry_btn">记账查询</string>
+    <string name="statistics_report_btn">记账统计</string>
+    <string name="data_sync_btn">数据同步</string>
+    <!-- 登录结果页面结束 -->
+    
+    <!-- 全局参数配置页面 -->
+    <string name="global_param_title">全局参数配置</string>
+    <string name="single_max_amount">单笔消费最大限额</string>
+    <string name="weekly_max_amount">周消费限额</string>
+    <string name="monthly_max_amount">月消费限额</string>
+    <!-- 全局参数配置结束 --> 
+    
+    <!-- 用户维护页面部分 -->
+    <string name="add_user_title">添加用户</string>
+    <string name="modify_user_title">修改用户</string>
+    <string name="inquire_user_title">查询用户</string>
+    <string name="user_list">用户列表</string>
+    <string name="user_no">用户名</string>
+    <string name="tv_password">密码</string>
+    <string name="confrim_password">确认密码</string>
+    <string name="password_disaccord">密码不一致</string>
+    <string name="confrim_password_no_null">确认密码不能为空</string>
+    <string name="user_name">用户姓名</string>
+    <string name="user_name_no_null">用户姓名不能为空</string>
+    <string name="user_nickname">用户昵称</string>
+    <string name="user_nickname_no_null">用户昵称不能为空</string>
+    <string name="user_is_exist">用户已存在</string>
+    <string name="gender">性别</string>
+    <string name="gender_no_null">请选择性别</string>
+    <string name="phone">电话</string>
+    <string name="phone_no_null">电话不能为空</string>
+    <string name="email">邮件</string>
+    <string name="email_no_null">邮件不能为空</string>
+    <string name="married">婚姻状况</string>
+    <string name="married_yes">已婚</string>
+    <string name="married_no">未婚</string>
+    <string name="role">角色</string>
+    <string name="all">所有</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="user">用户</string>
+    <string name="admin">管理员</string>
+    <string name="view">查看</string>
+    <string name="back_to_inquire">返回查询</string>
+    <!-- 用户维护页面结束 -->    
+    
+    <!-- 消费者维护页面部分 -->
+  	<string name="consumer_name">姓名</string>
+  	<string name="consumer_name_no_null">姓名不能为空</string>
+    <string name="relationship">关系</string>
+    <string name="relationship_no_null">关系不能为空</string>
+    <string name="operation">操作</string>
+    <string name="add_consumer">添加消费者</string>
+    <string name="consumer">消费者明细</string>
+    <string name="back_to_consumer">返回消费者明细</string>
+    <!-- 消费者维护页面结束 -->
+    
+  	<!-- 消费项维护页面部分-->
+    <string name="item_maintenance_title">管理消费项</string>
+	<string name="add_item">添加消费项</string>
+	<string name="item_name_title">消费项名称</string>
+	<string name="add_item_title">添加消费项</string>
+	<string name="item">消费项</string>
+	<string name="item_name_no_null">消费项不能为空</string>
+	<string name="item_name_exist">该消费项已存在</string>
+	<string name="back_to_itemMaintenance">返回消费项管理</string>
+	<!-- 消费项维护页面结束 -->
+
+	<!-- 记账页面部分 -->
+	<string name="description">备注</string>
+	<string name="reimbursement">报销</string>
+	<string name="consumer_string">消费者</string>
+	<string name="show_date">选择日期</string>
+	<string name="bookkeeping_title">记账</string>
+	<string name="viewBookkeeping_title">查询账单</string>
+	<string name="daily_inquiry_title">当日账单</string>
+	<string name="history_inquiry_title">历史账单</string>
+	<string name="date_no_null">日期不能为空</string>
+	<string name="item_no_null">消费项不能为空</string>
+	<string name="consumer_no_null">消费者不能为空</string>
+	<string name="amount_no_null">金额不能为空</string>
+	<string name="from_date">起始日期</string>
+	<string name="to_date">截止日期</string>
+	<string name="overspend">超支提示</string> 
+    <string name="overspend_message">该消费者本月已超支</string> 
+    <string name="init_consumer">请先定义消费者</string>
+    <string name="init_item">请先定义消费项</string>
+    <string name="back_to_bookkeeping">返回记账</string>
+	<!-- 记账页面结束 -->
+	
+	<!--数据同步 -->
+	<string name="data_sync_title">数据同步</string>
+	<string name="sync_item">同步项</string>
+	<string name="spinner_sync_item">请选择同步项</string>
+	<string name="start_sync">开始同步</string>
+	<string name="data_sync_success">数据同步成功</string>
+	<string name="data_sync_failure">数据同步失败</string>
+	<!-- 数据同步结束 -->
+	
+	<!-- 地图部分 -->
+	<string name="satellite">卫星</string> 
+    <string name="traffic">交通</string> 
+    <string name="street">街景</string> 
+    <!-- 地图部分结束 -->
+    
+    <!-- 图形统计部分 -->
+    <string name="statistics_query">统计查询</string> 
+    <string name="statistics_type">统计类型</string>
+    <string name="picture_type">图形类型</string>
+    <string name="statistics_monthly">按月统计</string>
+    <string name="statistics_item">按消费项统计</string>
+    <string name="statistics_consumer">按消费者统计</string>
+    <string name="statistics_pie_chart">饼状图</string>
+    <string name="statistics_column_chart">柱状图</string>
+    <string name="statistics_line_chart">线形图</string>
+    
+    <string name="statistics_today">本日统计</string>
+    <string name="statistics_this_week">本周统计</string>
+    <string name="statistics_this_month">本月统计</string>
+    <string name="statistics_this_quarter">本季度统计</string>
+    <string name="statistics_this_year">本年统计</string>
+    <!-- 图形统计部分结束 -->    
+    
+</resources>
